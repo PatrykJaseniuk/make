@@ -7,6 +7,6 @@ program2: object2.o
 object.o: source.c
 	cc -c source.c -o object.o 
 
-source.c: 									
-	echo "int main(){return 0;}" > source.c
+a: b		# run if b is leater than a
+	echo a		#regul for creating a file
 
