@@ -1,0 +1,1 @@
+lekcja na podstawie :https://makefiletutorial.com
