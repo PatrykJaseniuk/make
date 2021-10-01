@@ -1,14 +1,14 @@
 
 
 
-end: a	#regul run if a is leater than end
-	echo end	#regul for creating end file	
+end: a	#rule run if a is leater than end
+	echo end	#rule for creating end file	
 
 a: b		# run if b is leater than a
-	echo a		#regul for creating a file
+	echo a		#rule for creating a file
 
 b: 			# run newer 
-	echo b		# regul for creating b file
+	echo b		# rule for creating b file
 
 
 
